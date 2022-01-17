@@ -3,7 +3,7 @@ pipeline {
 
     tools {
         
-        maven "M3"
+        maven "MVN-3.8.4"
     }
 
     stages {
