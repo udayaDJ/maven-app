@@ -10,7 +10,7 @@ pipeline {
         stage('Build') {
             steps {
                
-                git https://github.com/udayaDJ/maven-app.git
+                git "https://github.com/udayaDJ/maven-app.git"
 
                 
                 sh "mvn -Dmaven.test.failure.ignore=true clean package"
